@@ -10,7 +10,7 @@
     justify-content: space-around;
     color: white;
     /*background-image: url("../images/eagle.png");*/
-    background: linear-gradient(rgba(255, 142, 71, 0.45), rgba(255, 50, 11, 0.45)),url("../images/eagle.png");
+    background: linear-gradient(rgba(255, 142, 71, 0.45), rgba(255, 50, 11, 0.45)), url("../images/eagle.png");
     z-index: -1;
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
@@ -22,15 +22,27 @@
 }
 
 
-
 .progressLines {
     display: flex;
-    justify-content:space-between;
-    align-content: space-between;
 }
 
 .whatWeDo {
+    display: flex;
     height: 450px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.statisticsBar {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #95E1D4;
+    justify-items: center;
+    align-items: center;
+    color: white;
 }
 
 
@@ -52,18 +64,14 @@ nav ul {
 }
 
 nav li {
-    flex: auto ;
+    flex: auto;
 }
 
-nav a{
-    flex: auto ;
+nav a {
+    flex: auto;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Arial', serif;
     font-size: 12px;
-}
-
-body {
-    /*background-image: url("/src/images/photoshop template copy 2_0001_Background.jpg");*/
 }
