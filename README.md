@@ -4,7 +4,7 @@
 
 ## Installation
 
-to Run this app on the web run
+to have babel running run:
 
 ```bash
 npm install
